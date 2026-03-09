@@ -1,2 +1,21 @@
 # MSRLM-Bus-Financial-Model
-Python financial model to evaluate viability of MSRLM rural tourism buses.
+
+MSRLM Tourist Bus Financial Model
+
+This project builds a financial viability model for rural tourism buses
+proposed under MSRLM initiatives.
+
+Features:
+- Revenue modelling based on seat occupancy
+- Fuel and operating cost estimation
+- Break-even occupancy calculation
+- Payback period estimation
+
+Tools used:
+Python
+Pandas
+Matplotlib
+
+Author:
+Omkar Wakchaure
+Public Policy Professional
