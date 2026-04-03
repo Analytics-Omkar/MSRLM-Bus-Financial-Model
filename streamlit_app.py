@@ -536,7 +536,7 @@ elif page == "🔮 Scenario Simulation":
             return ""
 
     st.dataframe(
-        scen_df.style.applymap(color_scen, subset=["A: Direct Ops (₹L)","B: Lease Out (₹L)","C: PPP Share (₹L)"]),
+        scen_df.style.map(color_scen, subset=["A: Direct Ops (₹L)","B: Lease Out (₹L)","C: PPP Share (₹L)"]),
         use_container_width=True
     )
 
